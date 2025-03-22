@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(to right, #4ecdc4, #556270);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.heading {
+  font-family: "Pacifico", cursive;
+  margin: 35px auto 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-align: center;
+}
+
+hr {
+  border-top: 2px solid #fff;
+  width: 40%;
+  margin-bottom: 55px;
+}
+
+.container {
+  text-align: center;
+}
+
+.main {
+  width: 50vw;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  font-size: 18px;
+  color: #fff;
+}
+
+.btn {
+  width: 200px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #4ecdc4;
+}
+
+#finalAmount {
+  font-family: "Lobster", cursive;
+  display: none;
+  margin: 50px auto;
+  transition: opacity 0.5s ease;
+}
+
+#finalAmount h2 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.finalValue {
+  font-family: "Amiri", serif;
+  color: #4ecdc4;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  hr {
+    width: 60%;
+  }
+  .main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading {
+    font-size: 40px;
+  }
+  hr {
+    width: 75%;
+  }
+  #finalAmount h2,
+  .finalValue {
+    font-size: 30px;
+  }
+}
