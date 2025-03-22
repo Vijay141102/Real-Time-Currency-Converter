@@ -10,7 +10,7 @@ A sleek and responsive Currency Converter web app that allows users to convert c
 - CSS– Styling  
 - JavaScript– Logic
   
-##Future Enhancements
-Add historical exchange rate charts.
-Implement user authentication.
-Save user preferences for quick conversions.
+## Future Enhancements
+- Add historical exchange rate charts.
+- Implement user authentication.
+- Save user preferences for quick conversions.
